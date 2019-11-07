@@ -1,0 +1,45 @@
+
+ 
+.box-style { 
+    float: left;
+    padding: 0;
+    width: 22%;
+    height: 100px;
+    border: 1px solid black;
+}
+
+#mainDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width:768px) {
+
+  .box-style {
+    width: 100%;
+  }
+  
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+  .box-style {
+    width: 45%;
+  }
+  
+}
+
+@media screen and (min-width:1025px) {
+
+  .box-style {
+    width: 22%;
+  }
+  
+}
+
+
+
+html {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
